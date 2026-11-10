@@ -1,1 +1,118 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>English with Jerusha</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:#6a1b9a;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    max-width:900px;
+    margin:30px auto;
+    padding:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+}
+
+button{
+    background:#6a1b9a;
+    color:white;
+    padding:12px 20px;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#4a148c;
+}
+
+#lesson{
+    display:none;
+    margin-top:20px;
+    text-align:left;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>📚 English with Jerusha</h1>
+    <p>Learn English Step by Step</p>
+</header>
+
+<div class="container">
+    <div class="card">
+
+        <h2>Welcome!</h2>
+
+        <p>
+            Improve your English through simple lessons,
+            activities and practice exercises.
+        </p>
+
+        <h3>Today's Lesson</h3>
+
+        <p><strong>Understanding IS</strong></p>
+
+        <button onclick="showLesson()">
+            Start Lesson
+        </button>
+
+        <div id="lesson">
+
+            <h3>What is IS?</h3>
+
+            <p>IS is used for one person, one place, or one thing.</p>
+
+            <ul>
+                <li>✅ He is happy.</li>
+                <li>✅ The school is big.</li>
+                <li>✅ My pen is blue.</li>
+            </ul>
+
+            <p><strong>Structure:</strong></p>
+
+            <p>Subject + IS + Complement</p>
+
+            <p>
+                <strong>తెలుగు:</strong>
+                ఉన్నాడు / ఉంది / ఉన్నది
+            </p>
+
+        </div>
+
+    </div>
+</div>
+
+<script>
+function showLesson(){
+    document.getElementById("lesson").style.display="block";
+}
+</script>
+
+</body>
+</html>
