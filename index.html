@@ -1,4 +1,152 @@
-📚 English with Jerusha
-Welcome to my English learning website.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English with Jerusha</title>
 
-Today's Lesson: Understanding IS
+    <style>
+
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family: Arial, sans-serif;
+            background:#f4f7fc;
+            color:#333;
+        }
+
+        header{
+            background:#4CAF50;
+            color:white;
+            text-align:center;
+            padding:25px;
+        }
+
+        header h1{
+            margin-bottom:10px;
+        }
+
+        .hero{
+            text-align:center;
+            padding:40px 20px;
+        }
+
+        .card{
+            background:white;
+            width:90%;
+            max-width:700px;
+            margin:auto;
+            padding:30px;
+            border-radius:15px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .lesson-box{
+            background:#e8f5e9;
+            padding:20px;
+            border-radius:10px;
+            margin-top:20px;
+        }
+
+        button{
+            margin-top:20px;
+            padding:12px 20px;
+            border:none;
+            border-radius:8px;
+            background:#4CAF50;
+            color:white;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#3d9140;
+        }
+
+        #lesson{
+            display:none;
+            margin-top:20px;
+        }
+
+        .example{
+            background:#f8f9fa;
+            padding:12px;
+            margin:10px 0;
+            border-radius:8px;
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>📚 English with Jerusha</h1>
+    <p>Learn English Step by Step</p>
+</header>
+
+<section class="hero">
+
+    <div class="card">
+
+        <h2>Welcome!</h2>
+
+        <p>
+            Improve your English through simple lessons,
+            activities and practice exercises.
+        </p>
+
+        <div class="lesson-box">
+            <h3>Today's Lesson</h3>
+            <p><strong>Understanding IS</strong></p>
+
+            <button onclick="showLesson()">
+                Start Lesson
+            </button>
+        </div>
+
+        <div id="lesson">
+
+            <h3>What is IS?</h3>
+
+            <p>
+                IS is used for one person, one place or one thing.
+            </p>
+
+            <div class="example">✅ He is happy.</div>
+
+            <div class="example">✅ The school is big.</div>
+
+            <div class="example">✅ My pen is blue.</div>
+
+            <h3 style="margin-top:20px;">
+                Structure
+            </h3>
+
+            <p>
+                Subject + IS + Complement
+            </p>
+
+            <p style="margin-top:10px;">
+                IS = Vunnādu / Undi / Vunnadi
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<script>
+
+function showLesson() {
+    document.getElementById("lesson").style.display="block";
+}
+
+</script>
+
+</body>
+</html>
